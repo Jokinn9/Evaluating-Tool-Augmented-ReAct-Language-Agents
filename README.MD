@@ -70,7 +70,7 @@ Then activate it:
 conda activate tfm_env
 ```
 
-This will install all required packages, including LangChain, LangGraph, RAGAS, HuggingFace Transformers and support for local model execution with Ollama.
+This will install all required packages, including LangChain, LangGraph, RAGAS, HuggingFace Transformers and support for local model execution with Ollama. Make sure Ollama is installed and that the LLMs Llama3.2 and Mistral are also installed.
 
 
 ## How to Run
