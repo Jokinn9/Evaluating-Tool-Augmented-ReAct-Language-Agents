@@ -1,0 +1,76 @@
+[
+    {
+        "question": "Who is the president of Argentina?",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "argentina"}}
+        ],
+        "expected_substring": "milei"
+    },
+    {
+        "question": "Give me a summary of Marie Curie.",
+        "expected_tool_calls": [
+            {"name": "get_summary_of", "args": {"person": "marie curie"}}
+        ],
+        "expected_substring": "radioactivity"
+    },
+    {
+        "question": "Give me a summary of the president of Germany.",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "germany"}},
+            {"name": "get_summary_of", "args": {"person": "frank-walter steinmeier"}} 
+        ],
+        "expected_substring": "germany"
+    },
+    {
+        "question": "Who is the president of the Chile?",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "chile"}}
+        ],
+        "expected_substring": "Gabriel Boric"
+    },
+    {
+        "question": "Give me a summary of Ada Lovelace.",
+        "expected_tool_calls": [
+            {"name": "get_summary_of", "args": {"person": "ada lovelace"}}
+        ],
+        "expected_substring": "computer"
+    },
+    {
+        "question": "Tell me about the president of Finland.",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "finland"}},
+            {"name": "get_summary_of", "args": {"person": "alexander stubb"}}  
+        ],
+        "expected_substring": "finland"
+    },
+    {
+        "question": "Tell me about Barack.",
+        "expected_tool_calls": [
+            {"name": "get_summary_of", "args": {"person": "barack obama"}}
+        ],
+        "expected_substring": "president"
+    },
+    {
+        "question": "Who is the president of France and give me a summary.",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "france"}},
+            {"name": "get_summary_of", "args": {"person": "emmanuel macron"}}
+        ],
+        "expected_substring": "france"
+    },
+    {
+        "question": "Summarize the current president of Mexico.",
+        "expected_tool_calls": [
+            {"name": "get_current_president_of", "args": {"country": "mexico"}},
+            {"name": "get_summary_of", "args": {"person": "andrés manuel lópez obrador"}}
+        ],
+        "expected_substring": "mexico"
+    },
+    {
+        "question": "Give me a summary of Elon Musk.",
+        "expected_tool_calls": [
+            {"name": "get_summary_of", "args": {"person": "elon musk"}}
+        ],
+        "expected_substring": "tesla"
+    }
+]

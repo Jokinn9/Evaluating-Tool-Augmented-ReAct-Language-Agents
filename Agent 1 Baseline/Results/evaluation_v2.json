@@ -1,0 +1,747 @@
+[
+  {
+    "question": "What is the price of silver in gbp?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of silver in GBP is approximately 0.7359 GBP per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 541.18
+  },
+  {
+    "question": "What is the price of lead in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of lead in EUR is approximately 0.00168 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.05
+  },
+  {
+    "question": "How much is aluminum worth in gbp?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Aluminum is worth approximately 0.0018 GBP per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.34
+  },
+  {
+    "question": "How much is silver worth in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": false,
+    "final_response": "Silver is worth approximately 0.8 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.02
+  },
+  {
+    "question": "Tell me the aluminum rate in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of aluminum in EUR is 0.0026 USD * 0.8 EUR/USD = 0.00208 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.82
+  },
+  {
+    "question": "Tell me the lead rate in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 0.5,
+    "ragas_tool_accuracy": 0.0,
+    "output_contains_expected": true,
+    "value_correct": false,
+    "final_response": "The lead rate in EUR is 1 USD = 0.8 EUR.",
+    "num_steps": 4,
+    "execution_time_sec": 10.16
+  },
+  {
+    "question": "Give me the current value of nickel in gbp.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Nickel is currently priced at approximately 0.0113 GBP per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.65
+  },
+  {
+    "question": "Give me the current value of nickel in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Nickel is currently priced at approximately 0.0127 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.64
+  },
+  {
+    "question": "I'd like the price of lead in eur, please.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of lead in EUR is 0.00168 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.73
+  },
+  {
+    "question": "I'd like the price of nickel in usd, please.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "usd"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Since the target currency is the same as the base currency, there is no need for an exchange rate. The price of nickel remains 0.0159 USD per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 14.51
+  },
+  {
+    "question": "Can you convert the price of zinc to eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "zinc"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "zinc"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of zinc in EUR is 0.00248 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.81
+  },
+  {
+    "question": "Can you convert the price of copper to usd?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "usd"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Since the target currency is the same as the base currency, there is no need for an exchange rate. The price of copper in USD remains 0.0098 USD per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 14.78
+  },
+  {
+    "question": "What's the current rate for copper in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current rate for copper in EUR is approximately 0.008 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.98
+  },
+  {
+    "question": "What's the current rate for silver in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": false,
+    "final_response": "The current rate for silver in EUR is approximately 0.8 EUR per USD, so the current price of silver in EUR would be:\n\n1.0523 USD * 0.8 EUR/USD \u2248 0.8364 EUR per gram of silver.\n\nPlease note that metal prices can fluctuate rapidly and may not reflect the exact rate at the time of your inquiry.",
+    "num_steps": 6,
+    "execution_time_sec": 17.51
+  },
+  {
+    "question": "Show me the value of lead in gbp.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of lead in GBP is approximately 0.0015 GBP per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 12.9
+  },
+  {
+    "question": "Show me the value of copper in usd.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "usd"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Since the target currency is the same as the base currency, there is no need for an exchange rate. The price of copper in USD remains 0.0098 USD per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 14.73
+  },
+  {
+    "question": "Do you know the copper price in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "The current price of copper in EUR is approximately 0.008 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.01
+  },
+  {
+    "question": "Do you know the platinum price in usd?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": false,
+    "final_response": "Platinum is currently priced at $32.17 USD per ounce.",
+    "num_steps": 4,
+    "execution_time_sec": 10.3
+  },
+  {
+    "question": "Get me the platinum rate converted to eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": false,
+    "final_response": "The current price of platinum in EUR is approximately 25.712 EUR per gram.",
+    "num_steps": 6,
+    "execution_time_sec": 13.12
+  },
+  {
+    "question": "Get me the platinum rate converted to usd.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "tool_accuracy": 1.0,
+    "ragas_tool_accuracy": 1.0,
+    "output_contains_expected": true,
+    "value_correct": true,
+    "final_response": "Platinum is currently priced at 32.169 USD per gram. To convert this to a more standard unit, let's assume you'd like the price in USD per ounce. There are 31.103 grams in an ounce, so:\n\n32.169 USD/gram * 31.103 grams/ounce \u2248 1003.55 USD/ounce\n\nSo, the current price of platinum is approximately 1003.55 USD per ounce.\n\nWould you like to know the exchange rate for any specific currency?",
+    "num_steps": 4,
+    "execution_time_sec": 17.35
+  }
+]

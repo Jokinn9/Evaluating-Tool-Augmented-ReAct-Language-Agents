@@ -1,0 +1,113 @@
+[
+  {
+    "user_input": "Who is the president of Argentina?",
+    "retrieved_contexts": [
+      "Javier Milei"
+    ],
+    "reference_contexts": null,
+    "response": "The current president of Argentina is Javier Milei.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Marie Curie.",
+    "retrieved_contexts": [
+      "Maria Salomea Skłodowska-Curie, known simply as Marie Curie, was a Polish and naturalised-French physicist and chemist who conducted pioneering research on radioactivity."
+    ],
+    "reference_contexts": null,
+    "response": "She was the first woman to win a Nobel Prize, the first person to win two Nobel Prizes in different fields of science (physics in 1903 and chemistry in 1911), and the first woman to become a professor at the University of Paris.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of the president of Germany.",
+    "retrieved_contexts": [
+      "Frank-Walter Steinmeier",
+      "Frank-Walter Steinmeier is a German politician who has served as President of Germany since 2017. He was previously federal minister for foreign affairs from 2005 to 2009 and again from 2013 to 2017, as well as vice chancellor of Germany from 2007 to 2009. Steinmeier was chairman-in-office of the Organization for Security and Co-operation in Europe (OSCE) in 2016."
+    ],
+    "reference_contexts": null,
+    "response": "I can provide a more concise summary:\n\nFrank-Walter Steinmeier is a German politician who has been President of Germany since 2017. He previously served as Minister for Foreign Affairs and Vice Chancellor of Germany.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Who is the president of the Chile?",
+    "retrieved_contexts": [
+      "Gabriel Boric"
+    ],
+    "reference_contexts": null,
+    "response": "The current President of Chile is Gabriel Boric.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Ada Lovelace.",
+    "retrieved_contexts": [
+      "Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation."
+    ],
+    "reference_contexts": null,
+    "response": "Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Tell me about the president of Finland.",
+    "retrieved_contexts": [
+      "Cai-Göran Alexander Stubb is a Finnish politician who has been the 13th president of Finland since 2024. He previously served as Prime Minister of Finland from 2014 to 2015."
+    ],
+    "reference_contexts": null,
+    "response": "Cai-Göran Alexander Stubb is a Finnish politician who has been the 13th president of Finland since 2024. He previously served as Prime Minister of Finland from 2014 to 2015.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Tell me about Barack.",
+    "retrieved_contexts": [
+      "Barack Hussein Obama II is an American politician who was the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American president in American history. Obama previously served as a U.S. senator representing Illinois from 2005 to 2008 and as an Illinois state senator from 1997 to 2004."
+    ],
+    "reference_contexts": null,
+    "response": "Barack Obama was the 44th President of the United States, serving from 2009 to 2017. He was the first African American to hold this office and a member of the Democratic Party.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Who is the president of France and give me a summary.",
+    "retrieved_contexts": [
+      "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He served as Minister of the Economy, Industry, and Digital Affairs under President François Hollande from 2014 to 2016. He has been a member of Renaissance since founding the party in 2016."
+    ],
+    "reference_contexts": null,
+    "response": "Emmanuel Macron is a French politician who has been President of France and Co-Prince of Andorra since 2017. He was Minister of the Economy from 2014 to 2016 and founded the Renaissance party in 2016.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Summarize the current president of Mexico.",
+    "retrieved_contexts": [
+      "Claudia Sheinbaum Pardo is a Mexican politician, energy and climate change scientist, and academic who has served as the 66th president of Mexico since 2024. She is the first woman to hold the office. A member of the National Regeneration Movement (Morena), she previously served as Head of Government of Mexico City from 2018 to 2023. In 2024, Forbes ranked Sheinbaum as the fourth most powerful woman in the world."
+    ],
+    "reference_contexts": null,
+    "response": "Claudia Sheinbaum is a Mexican politician and scientist who became the country’s first female president in 2024. She was Head of Government of Mexico City from 2018 to 2023 and is a member of the Morena party.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Elon Musk.",
+    "retrieved_contexts": [
+      "Elon Reeve Musk is a businessman. He is known for his leadership of Tesla, SpaceX, X, and the Department of Government Efficiency (DOGE). Musk has been considered the wealthiest person in the world since 2021; as of May 2025, Forbes estimates his net worth to be US$424.7 billion."
+    ],
+    "reference_contexts": null,
+    "response": "It seems I made a mistake. The tool output is not suitable for generating a summary. Let me try again.\n\nElon Musk is a businessman. He is known for his leadership of Tesla and SpaceX.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  }
+]

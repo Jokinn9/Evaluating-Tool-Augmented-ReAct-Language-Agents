@@ -1,0 +1,262 @@
+[
+  {
+    "question": "Who is the president of Argentina?",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "argentina"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "argentina"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  },
+  {
+    "question": "Give me a summary of Marie Curie.",
+    "expected_tool_calls": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "marie curie"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "marie curie"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  },
+  {
+    "question": "Give me a summary of the president of Germany.",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "germany"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "frank-walter steinmeier"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "germany"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "frank-walter steinmeier"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 6
+  },
+  {
+    "question": "Who is the president of the Chile?",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "chile"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "chile"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  },
+  {
+    "question": "Give me a summary of Ada Lovelace.",
+    "expected_tool_calls": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "ada lovelace"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "ada lovelace"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  },
+  {
+    "question": "Tell me about the president of Finland.",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "finland"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "alexander stubb"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "finland"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "alexander stubb"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 6
+  },
+  {
+    "question": "Tell me about Barack.",
+    "expected_tool_calls": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "barack obama"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "barack obama"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  },
+  {
+    "question": "Who is the president of France and give me a summary.",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "france"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "emmanuel macron"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "france"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "country": "france",
+          "person": "emmanuel macron"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1,
+    "num_steps": 6
+  },
+  {
+    "question": "Summarize the current president of Mexico.",
+    "expected_tool_calls": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "mexico"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "claudia sheinbaum"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_current_president_of",
+        "args": {
+          "country": "mexico"
+        }
+      },
+      {
+        "name": "get_summary_of",
+        "args": {
+          "country": "mexico",
+          "person": "claudia sheinbaum"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1,
+    "num_steps": 6
+  },
+  {
+    "question": "Give me a summary of Elon Musk.",
+    "expected_tool_calls": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "elon musk"
+        }
+      }
+    ],
+    "tool_calls_detected": [
+      {
+        "name": "get_summary_of",
+        "args": {
+          "person": "elon musk"
+        }
+      }
+    ],
+    "ragas_tool_accuracy": 1.0,
+    "num_steps": 4
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Describe gold",
+    "expected_tool_calls": [
+      {
+        "name": "describe_metal",
+        "arguments": {
+          "metal_name": "gold"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What does the document say about copper?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_info",
+        "arguments": {
+          "metal_name": "copper",
+          "path": "Metals Description 2023.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What does the PDF say about the industrial uses of copper?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_info",
+        "arguments": {
+          "metal_name": "copper",
+          "path": "Metals Description 2023.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Can you give me the description and price of silver from the document?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_info",
+        "arguments": {
+          "metal_name": "silver",
+          "path": "Metals Description 2023.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What does the document mention about palladium's applications?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_info",
+        "arguments": {
+          "metal_name": "palladium",
+          "path": "Metals Description 2023.pdf"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What’s the current market price of gold?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price_yfinance",
+        "arguments": {
+          "metal_name": "gold"
+        }
+      }
+    ]
+  },
+  {
+    "question": "How much is silver trading at today?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price_yfinance",
+        "arguments": {
+          "metal_name": "silver"
+        }
+      }
+    ]
+  },
+  {
+    "question": "Can you check the latest price of copper and describe it?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price_yfinance",
+        "arguments": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "describe_metal",
+        "arguments": {
+          "metal_name": "copper"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What is platinum and what are its main characteristics?",
+    "expected_tool_calls": [
+      {
+        "name": "describe_metal",
+        "arguments": {
+          "metal_name": "platinum"
+        }
+      }
+    ]
+  },
+  {
+    "question": "What's the technical description of silver",
+    "expected_tool_calls": [
+      {
+        "name": "describe_metal",
+        "arguments": {
+          "metal_name": "silver"
+        }
+      }
+    ]
+  }
+]

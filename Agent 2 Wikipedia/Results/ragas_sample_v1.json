@@ -1,0 +1,113 @@
+[
+  {
+    "user_input": "Who is the president of Argentina?",
+    "retrieved_contexts": [
+      "Javier Milei"
+    ],
+    "reference_contexts": null,
+    "response": "Javier Milei is the current president of Argentina, having taken office in December 2023.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Marie Curie.",
+    "retrieved_contexts": [
+      "Maria Salomea Skłodowska-Curie, known simply as Marie Curie, was a Polish and naturalised-French physicist and chemist who conducted pioneering research on radioactivity."
+    ],
+    "reference_contexts": null,
+    "response": "She was the first woman to win a Nobel Prize, the first person to win two Nobel Prizes in different fields (physics in 1903 and chemistry in 1911), and the first woman to become a professor at the University of Paris. Her work laid the foundation for the discovery of the elements polonium and radium, and she developed mobile X-ray units during World War I to treat wounded soldiers.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of the president of Germany.",
+    "retrieved_contexts": [
+      "The president of Germany, officially titled the Federal President of the Federal Republic of Germany, is the head of state of Germany. The current officeholder is Frank-Walter Steinmeier who was elected on 12 February 2017 and re-elected on 13 February 2022. He is currently serving his second five-year-term, which began on 19 March 2022."
+    ],
+    "reference_contexts": null,
+    "response": "The current president of Germany is Frank-Walter Steinmeier. He was first elected in 2017 and re-elected in 2022.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Who is the president of the Chile?",
+    "retrieved_contexts": [
+      "Gabriel Boric"
+    ],
+    "reference_contexts": null,
+    "response": "The current President of Chile is Gabriel Boric.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Ada Lovelace.",
+    "retrieved_contexts": [
+      "Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation."
+    ],
+    "reference_contexts": null,
+    "response": "Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Tell me about the president of Finland.",
+    "retrieved_contexts": [
+      "Alexander Stubb"
+    ],
+    "reference_contexts": null,
+    "response": "The current President of Finland is Alexander Stubb.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Tell me about Barack.",
+    "retrieved_contexts": [
+      "Barack Hussein Obama II is an American politician who was the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American president in American history. Obama previously served as a U.S. senator representing Illinois from 2005 to 2008 and as an Illinois state senator from 1997 to 2004."
+    ],
+    "reference_contexts": null,
+    "response": "Before becoming President, Barack Obama served as a community organizer, a civil rights attorney, and a lecturer at the University of Chicago Law School. He was also a member of the Illinois State Senate and later became a U.S. Senator.\n\nAs President, Obama signed several significant laws, including the Affordable Care Act (also known as Obamacare), the Dodd-Frank Wall Street Reform and Consumer Protection Act, and the Don't Ask, Don't Tell Repeal Act. He also took executive actions to address climate change, immigration reform, and gun control.\n\nObama was awarded the Nobel Peace Prize in 2009 for his efforts to strengthen international diplomacy and cooperation. He is known for his eloquent speeches and his commitment to social justice and equality.\n\nAfter leaving office, Obama has remained active in public life, establishing the Obama Foundation to promote civic engagement and community development.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Who is the president of France and give me a summary.",
+    "retrieved_contexts": [
+      "Emmanuel Macron",
+      "Emmanuel Jean-Michel Frédéric Macron is a French politician who has served as President of France and Co-Prince of Andorra since 2017. He served as Minister of the Economy, Industry, and Digital Affairs under President François Hollande from 2014 to 2016. He has been a member of Renaissance since founding the party in 2016."
+    ],
+    "reference_contexts": null,
+    "response": "I was unable to find any information on a person named \"Emmanuel Macron\" that would allow me to generate a summary about him.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Summarize the current president of Mexico.",
+    "retrieved_contexts": [
+      "Error: 404 Client Error: Not Found for url: https://en.wikipedia.org/api/rest_v1/page/summary/get_current_president_of"
+    ],
+    "reference_contexts": null,
+    "response": "Unfortunately, I don't have a tool to call `get_current_president_of` with the country's name. However, I can suggest checking a reliable news source or the official website of Mexico for the current president's information.\n\nAlternatively, I can try to provide general information about the Mexican government. Please let me know if that would be helpful.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  },
+  {
+    "user_input": "Give me a summary of Elon Musk.",
+    "retrieved_contexts": [
+      "Elon Reeve Musk is a businessman. He is known for his leadership of Tesla, SpaceX, X, and the Department of Government Efficiency (DOGE). Musk has been considered the wealthiest person in the world since 2021; as of May 2025, Forbes estimates his net worth to be US$424.7 billion."
+    ],
+    "reference_contexts": null,
+    "response": "Elon Musk is a businessman known for leading Tesla, SpaceX, X and the Department of Government Efficiency (DOGE). Since 2021, he has been considered the world's richest person, with a net worth of $424.7 billion as of May 2025.",
+    "multi_responses": null,
+    "reference": null,
+    "rubrics": null
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "question": "What is the price of silver in gbp?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "expected_substring": "silver",
+    "expected_value": 0.73661
+  },
+  {
+    "question": "What is the price of lead in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "lead",
+    "expected_value": 0.00168
+  },
+  {
+    "question": "How much is aluminum worth in gbp?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "expected_substring": "aluminum",
+    "expected_value": 0.00182
+  },
+  {
+    "question": "How much is silver worth in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "silver",
+    "expected_value": 0.84184
+  },
+  {
+    "question": "Tell me the aluminum rate in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "aluminum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "aluminum",
+    "expected_value": 0.00208
+  },
+  {
+    "question": "Tell me the lead rate in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "lead",
+    "expected_value": 0.00168
+  },
+  {
+    "question": "Give me the current value of nickel in gbp.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "expected_substring": "nickel",
+    "expected_value": 0.01113
+  },
+  {
+    "question": "Give me the current value of nickel in eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "nickel",
+    "expected_value": 0.01272
+  },
+  {
+    "question": "I'd like the price of lead in eur, please.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "lead",
+    "expected_value": 0.00168
+  },
+  {
+    "question": "I'd like the price of nickel in usd, please.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "nickel"
+        }
+      }
+    ],
+    "expected_substring": "nickel",
+    "expected_value": 0.0159
+  },
+  {
+    "question": "Can you convert the price of zinc to eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "zinc"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "zinc",
+    "expected_value": 0.00248
+  },
+  {
+    "question": "Can you convert the price of copper to usd?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      }
+    ],
+    "expected_substring": "copper",
+    "expected_value": 0.0098
+  },
+  {
+    "question": "What's the current rate for copper in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "copper",
+    "expected_value": 0.00784
+  },
+  {
+    "question": "What's the current rate for silver in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "silver"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "silver",
+    "expected_value": 0.84184
+  },
+  {
+    "question": "Show me the value of lead in gbp.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "lead"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "gbp"
+        }
+      }
+    ],
+    "expected_substring": "lead",
+    "expected_value": 0.00147
+  },
+  {
+    "question": "Show me the value of copper in usd.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      }
+    ],
+    "expected_substring": "copper",
+    "expected_value": 0.0098
+  },
+  {
+    "question": "Do you know the copper price in eur?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "copper"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "copper",
+    "expected_value": 0.00784
+  },
+  {
+    "question": "Do you know the platinum price in usd?",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "expected_substring": "platinum",
+    "expected_value": 32.169
+  },
+  {
+    "question": "Get me the platinum rate converted to eur.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      },
+      {
+        "name": "get_currency_exchange",
+        "args": {
+          "base": "usd",
+          "target": "eur"
+        }
+      }
+    ],
+    "expected_substring": "platinum",
+    "expected_value": 25.7336
+  },
+  {
+    "question": "Get me the platinum rate converted to usd.",
+    "expected_tool_calls": [
+      {
+        "name": "get_metal_price",
+        "args": {
+          "metal_name": "platinum"
+        }
+      }
+    ],
+    "expected_substring": "platinum",
+    "expected_value": 32.169
+  }
+]
