@@ -56,7 +56,22 @@ All RAGAS evaluations use:
 
 ## Requirements
 
-Install the dependencies in the requirements.yml
+To install all necessary dependencies, use the `environment.yml` file provided in the root folder.
+
+First, create the environment:
+
+```bash
+conda env create -f environment.yml -n tfm_env
+````
+
+Then activate it:
+
+```bash
+conda activate tfm_env
+```
+
+This will install all required packages, including LangChain, LangGraph, RAGAS, HuggingFace Transformers and support for local model execution with Ollama.
+
 
 ## How to Run
 
